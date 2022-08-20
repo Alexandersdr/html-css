@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*estilo  de texto para impressâo do site!...*/
+
+/* configuração do CSS3 padrão Global*/
+
+*{
+    margin: 0px;
+    padding: 10px;
+}
+/*Configuração de fontes do texto html!...*/
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/*desativar texto do menu para não imprimir!...*/
+/*display: nome desativado...*/
+
+menu {
+    display: none;
+}
+/*largura do papel para imprimir*/
+article {
+    width: 100%;
+}
+
+/*rodapé na impressão*/
+/*Depois do artigo vai exibir no rodapé*/
+article::after {
+    content: 'Esse artigo foi impresso através do site www.cursovideo.com';
+}

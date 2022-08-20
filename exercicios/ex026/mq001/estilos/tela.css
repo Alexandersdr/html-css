@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*estilo  de tela para difentes dispositivos e exibição do site!...*/
+
+/* configuração do CSS3 padrão Global*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Configuração de fontes do texto html!...*/
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+/*configuração de tela*/
+header {
+    background-color: rgb(158, 158, 158);
+
+}
+/*centralizar o texto h1*/
+header h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+menu ul {
+    
+    list-style-type: none;
+    background-color: gray;
+}
+
+/*configurar texto do menu colocar cor texto um do lado do outro */
+
+menu li{
+    background-color: rgb(21, 92, 92);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+/*configuração do conteudo do texto h2 p*/
+
+article {
+    width: 600px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}

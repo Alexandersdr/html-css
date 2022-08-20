@@ -5,37 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Queries</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: cadetblue;
-        }
-        .tela {
-            background-color: white;
-            text-align: center;
-            width: 290px;
-            margin: 200px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 5px rgb(0,0,0,0.400);
-            box-sizing: border-box;
-            
-        }
-    </style>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="estilos/tela.css" media="screen">
+ <link rel="stylesheet" href="estilos/impressora.css" media="print">
+
+ /*Capítulo 25 Aula 02 - Criando um site  com versão para impressora*/
+
 
 </head>
 <body>
+        
+    <header>
+        <h1>Notícias</h1>
+        <menu>
+            <ul>
+                <li>esportes</li>
+                <li>Politica</li>
+                <li>tecnologia</li>
+            </ul>
 
+        </menu>
+    </header>
+    <main>
+        <article class="sty" >
+            <h2>Estou aprendendo a criar Media Queries</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, exercitationem
+                <br> 
+                soluta eius veniam quasi possimus nulla, nam nobis quo deleniti 
+                 tenetur ad voluptas porro natus iste eligendi temporibus! Numquam, minima!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, exercitationem
+                <br> 
+                soluta eius veniam quasi possimus nulla, nam nobis quo deleniti 
+                 tenetur ad voluptas porro natus iste eligendi temporibus! Numquam, minima!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, exercitationem
+                <br> 
+                soluta eius veniam quasi possimus nulla, nam nobis quo deleniti 
+                 tenetur ad voluptas porro natus iste eligendi temporibus! Numquam, minima!
+            </p>
+        </article>
+
+    </main>
     <div class="tela" >
         <h1>O que é Media Queries?</h1>
         É usado pelo css3
         <P>Media Queries são para quando você for imprimir, <br>
             um site ou ver em uma tela menor do seu celular, <br>
             ou tables ou dispositivos compativeis! </P>
-        
+    
     </div>
 </body>
 </html>
