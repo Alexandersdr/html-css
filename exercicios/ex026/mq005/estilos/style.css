@@ -32,8 +32,8 @@ header > h1 {
 }
 /*passar mouse para acender menu"..*/
 #burguer:hover {
-  background-color: rgb(161, 157, 157);
-  color: rgb(252, 247, 247);
+  background-color: rgb(238, 231, 231);
+  color: rgb(19, 18, 18);
 }
 /*seletor do meun*/
 menu {
