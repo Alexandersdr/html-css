@@ -1,7 +1,18 @@
 @charset "UTF-8";
-* {
-    font-family: Arial, Helvetica, sans-serif;
+
+@media screen and (min-width: 768px) {
+    #burguer{
+        display: none;
+    }
 }
-body, html {
-    background-color:  lightgray;
+menu {
+    display: block;
+}
+/*menu em telas maiores o menu vai ficar um do lado do outro*/
+menu > ul > li {
+    display: inline-block;
+}
+/*texto em telas maiores maximo */
+main{
+    width: 768px;
 }
